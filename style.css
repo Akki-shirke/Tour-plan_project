@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+   
+}
+
+header {
+    background: #bf8275;
+    height: 90px ;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 0px;
+    height: 125px ;
+}
+
+.package,#booking-info{
+    background: #b9b3c0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.button, .package button {
+    background: #007BFF;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.button:hover, .package button:hover {
+    background: #0056b3;
+}
+
+.bg-sec{
+    background-image: url("mountains-6062271_1280.jpg");
+    background-repeat:no-repeat ;
+    background-size:cover ;
+align-items: center;
+   
+  
+}
+.bg-sec .txt{
+    padding-top:10px ;
+    row-gap: 15px;
+    color: #fff;
+}
+.bg-sec .txt .first-txt{
+  text-align: center;
+    font-size: 4.5vw;
+    font-weight: 600;
+    color: #ff0000;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.bg-sec .txt h2{
+    text-align: center;
+    margin: 100px;
+    color: yellow;
+}
+.bg-sec .txt p{
+    text-align: center;
+    color:white;
+}
+
+.search{
+    position: absolute;
+
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+/* form */
+form{
+    padding: 0 30% ;
+}
+#contact p{
+  
+        background: #bf8275;
+        font-size: 15px;
+        text-align: center;
+}
+h2{
+    margin-top: 50PX;
+   text-align: center;
+}
+.contact-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    width: 400px;
+    color: #fff;
+
+}
+
+
+.input-box {
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+    transition: border-color 0.3s ease;
+
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    border: #ff9800;
+}
+
+.input-box label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #aaa;
+    pointer-events: none;
+    transition: 0.3s ease;
+    padding: 0 5px;
+}
+
+
+
+.input-box input:not(:placeholder-shown)~label,
+.input-box textarea:not(:placeholder-shown)~label,
+.input-box input:focus~label,
+.input-box textarea:focus~label {
+    top: -20px;
+    left: 10px;
+    color: #ff9800;
+    font-size: 15px;
+}
+
+
+
+.input-box textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #ff9800;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3 ease;
+    width: 100%;
+    font-size: 13px;
+}
+
+input[type="submit"]:hover {
+    background: #875204;
+}
